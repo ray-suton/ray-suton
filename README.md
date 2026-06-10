@@ -4,6 +4,8 @@ I'm an AI Engineering undergraduate at MBZUAI building ML, LLM, and agentic syst
 
 I use GitHub as a public research and builder notebook: runnable experiments, clear status notes, honest limitations, and reproducible workflows. Right now I am especially interested in NLP, sequence modeling, inference-time control, hidden-state geometry, and AI for cultural/historical text.
 
+[LinkedIn](https://www.linkedin.com/in/rui-gao-gr/) | [GitHub](https://github.com/ray-suton)
+
 ## Current Focus
 
 - LLM interpretability and hidden-state geometry
