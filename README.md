@@ -32,7 +32,7 @@ Most of my current projects are active research/building projects, not final cla
 - limitations and failure cases
 - a short roadmap for the next experiment
 
-## Signals
+## Achievements
 
 - B.S. AI Engineering, Mohamed bin Zayed University of Artificial Intelligence
 - Sheikh Tahnoon bin Zayed Scholarship in AI Excellence and Pioneer Scholarship
@@ -40,10 +40,3 @@ Most of my current projects are active research/building projects, not final cla
 - 3rd place hackathon project for a browser-based AI workflow helper
 - Peer tutor for calculus and linear algebra
 
-## Next 30 Days
-
-- make the agent and inference-policy repos easier to run from a clean checkout
-- prepare the Prompt Distance Geometry expansion without exposing the in-submission paper
-- publish a small controlled-generation benchmark note
-- add a visual Song Ci or hidden-state geometry demo
-- keep a public contribution log for issues, PRs, reproductions, and tutorials
