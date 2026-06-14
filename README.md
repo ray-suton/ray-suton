@@ -1,44 +1,44 @@
 # Hi, I'm Rui Gao
 
-I'm an AI Engineering undergraduate at MBZUAI building ML, LLM, and agentic systems from data pipelines to evaluation.
+I'm an AI Engineering undergraduate at Mohamed bin Zayed University of Artificial Intelligence, focused on LLM systems, agentic workflows, and model evaluation. I build data pipelines, PyTorch prototypes, and reliability-oriented AI applications, with interests in statistical learning, sequence modeling, decision systems, NLP, and reliable LLM deployment.
 
-I use GitHub as a public research and builder notebook: runnable experiments, clear status notes, honest limitations, and reproducible workflows. Right now I am especially interested in NLP, sequence modeling, inference-time control, hidden-state geometry, and AI for cultural/historical text.
-
-[LinkedIn](https://www.linkedin.com/in/rui-gao-gr/) | [GitHub](https://github.com/ray-suton)
+[LinkedIn](https://www.linkedin.com/in/rui-gao-gr/) | [Portfolio](https://ray-suton.github.io) | [GitHub](https://github.com/ray-suton)
 
 ## Current Focus
 
-- LLM interpretability and hidden-state geometry
+- LLM systems, agentic workflows, and model evaluation
 - controlled generation and inference-time policy design
 - reliable evaluation under latency, token, and compute constraints
-- agentic systems, tool use, and workflow automation
-- AI for classical Chinese poetry and digital humanities
+- hidden-state geometry and mechanistic interpretability
+- sequence modeling and NLP for classical Chinese text
 
-## Selected Work
+## Selected Research And Publications
+
+| Work | Role | Summary |
+| --- | --- | --- |
+| [Metric Choice Determines Semantic Geometry in LLM Hidden States](https://github.com/ray-suton/LLM_Expansion) | First author, ICML 2026 Mechanistic Interpretability Workshop poster | Analyzed layerwise hidden-state geometry in LLMs, showing that raw L2 expansion is driven by norm growth while centered cosine better reveals semantic, topic, and category structure. |
+| SymStep: Symbolic Step Verification for Logical Reasoning | Coauthor, IJCAI/ECAI 2026 NILA Workshop paper | Developed step-level symbolic verification for LLM reasoning, using constraint propagation to check atomic deductions and strengthen constraint-dense logical reasoning. |
+| [Deadline-Valid Replay: Anytime-Valid Testing for LLM Inference Policies](https://github.com/ray-suton/Deadline_Valid) | First author, ICML 2026 Hypothesis Testing Workshop paper | Designed statistical evaluation methods for LLM inference policies under latency deadlines, distinguishing leaderboard gaps from certified policy-level advantages. |
+
+## AI/ML Projects
 
 | Project | Status | What it shows |
 | --- | --- | --- |
-| [Deadline-Valid Replay](https://github.com/ray-suton/Deadline_Valid) | ICML 2026 Hypothesis Testing Workshop paper reproducibility package | Anytime-valid testing and replay evaluation for LLM inference policies |
-| [Prompt Distance Geometry](https://github.com/ray-suton/LLM_Expansion) | Workshop-stage work completed; main-conference expansion in progress | Layerwise hidden-state distance analysis across controlled prompt suites |
-| [Recursive LLM](https://github.com/ray-suton/recursive-llm) | Research/build WIP | RLM-style long-context processing and controlled-refinement experiments |
-| [Chronos.AI](https://github.com/ray-suton/Chronos.AI) | Builder project | Natural-language scheduling with validation, recurring rules, and calendar workflows |
-| Song Ci AI archaeology | Preparing public release | Tone-level and rhyme-structure modeling for Chinese Song Ci texts |
+| [Chronos](https://github.com/ray-suton/Chronos.AI) | Natural-language scheduling product | Converts natural-language scheduling requests into Google Calendar and Outlook events, including preview, edit, delete, multi-event requests, recurring schedules, relative dates, timezone handling, undo/redo, command persistence, auth, and API validation. |
+| RLM: Defect-Guided Verifier Search for Controlled LLM Generation | Ongoing for ICML 2027 | Developing a controlled-generation system combining RLM-style hidden-context access with Defect-Guided Verifier Search over visible candidates. Repository link withheld while the project is being prepared for an ICML 2027 submission. |
+| AI Archaeology of Chinese Songci | Ongoing for ISMIR 2027 | Building a Songci NLP pipeline over classical-poetry JSON corpora, extracting cipai, line-length, rhyme-position, ping/ze tone, and rhythmic features, then encoding those structures into PyTorch sequence-modeling inputs. Repository link withheld while the project is being prepared for an ISMIR 2027 submission. |
 
-## Research And Building Style
+## Technical Stack
 
-Most of my current projects are active research/building projects, not final claims. I try to make each repo useful by including:
+- Languages: Python, SQL, C++
+- ML/AI: Machine Learning, Deep Learning, LLMs, Agentic Systems, LLMOps, Model Evaluation, PyTorch, NumPy, Pandas
+- CS: Data Structures and Algorithms, Operating Systems, Software Engineering, JavaScript, React
+- Tools: Git, GitHub, VS Code, Jupyter, LLM APIs
 
-- a concrete research question or builder goal
-- a minimal runnable demo or verification command
-- early results, plots, tables, or trace logs when available
-- limitations and failure cases
-- a short roadmap for the next experiment
+## Education, Honors, And Community
 
-## Achievements
-
-- B.S. AI Engineering, Mohamed bin Zayed University of Artificial Intelligence
+- B.S. in AI Engineering, MBZUAI, expected Fall 2029
+- MBZUAI Dean's List
 - Sheikh Tahnoon bin Zayed Scholarship in AI Excellence and Pioneer Scholarship
-- Kaggle Competitions Silver Medal
-- 3rd place hackathon project for a browser-based AI workflow helper
-- Peer tutor for calculus and linear algebra
-
+- President, MBZUAI Climbing Club
+- Founding student peer tutor for Calculus and Linear Algebra
