@@ -28,7 +28,7 @@ More detail on the [research page](https://ray-suton.github.io/research.html).
 ## Experience
 
 - **Machine Learning Engineer Intern, GenBio AI** (May 2026-Oct 2026): expert-designed baselines for VCHarness, an agentic framework for biomedical model construction and prediction; optimized its MCTS-based search, improving overall benchmark Macro-F1 by 7 percentage points.
-- **Undergraduate Researcher, MBZUAI** (Aug 2025-present): AI for computer graphics, with Prof. Lingqi Yan.
+- **Undergraduate Researcher, MBZUAI** (Aug 2025-present): LLM reasoning, efficient inference, and learned graphics. Current projects: Phase3Lock, faster diffusion language models (with Prof. Zhiqiang Shen and team); an interruptible-reasoning benchmark (with Prof. Zangir Iklassov); and learned depth of field (with Prof. Lingqi Yan).
 
 ## Education & honors
 
