@@ -1,39 +1,45 @@
 # Hi, I'm Rui Gao
 
-I'm an AI Engineering undergraduate at Mohamed bin Zayed University of Artificial Intelligence, focused on LLM systems, agentic workflows, and model evaluation. I build data pipelines, PyTorch prototypes, and reliability-oriented AI applications, with interests in statistical learning, sequence modeling, decision systems, NLP, and reliable LLM deployment.
+I'm an AI undergraduate at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), researching LLM reasoning, representations, and efficient inference. I enjoy music and climbing.
 
 [LinkedIn](https://www.linkedin.com/in/rui-gao-gr/) | [Portfolio](https://ray-suton.github.io) | [GitHub](https://github.com/ray-suton)
 
-## Current Focus
+## Research Interests
 
-- LLM systems, agentic workflows, and model evaluation
-- controlled generation and inference-time policy design
-- reliable evaluation under latency, token, and compute constraints
-- hidden-state geometry and mechanistic interpretability
-- sequence modeling and NLP for classical Chinese text
+- LLM reasoning, including whether reasoning models accept valid mid-inference updates
+- efficient inference for diffusion language models
+- hidden-state representations, linear probing, and interpretability
+- rigorous evaluation of language models and inference policies
+- agentic systems
+- computer vision, robotics, and performing arts
 
-## Selected Work
+## Research & Publications
 
 | Project | Status | What it shows |
 | --- | --- | --- |
-| [Deadline-Valid Replay: Anytime-Valid Testing for LLM Inference Policies](https://github.com/ray-suton/Deadline_Valid) | First author, ICML 2026 Hypothesis Testing Workshop | Statistical evaluation methods for LLM inference policies under latency deadlines, separating leaderboard gaps from certified policy-level advantages. |
-| [Metric Choice Determines Semantic Geometry in LLM Hidden States](https://github.com/ray-suton/LLM_Expansion) | First author, ICML 2026 Mechanistic Interpretability Workshop | Layerwise hidden-state geometry analysis showing raw L2 expansion is driven by norm growth while centered cosine better reveals semantic, topic, and category structure. |
-| [Chronos: Natural-Language Scheduling](https://github.com/ray-suton/Chronos.AI) | Natural-language scheduling product | Converts natural-language scheduling requests into Google Calendar and Outlook events, including preview, edit, delete, multi-event requests, recurring schedules, relative dates, timezone handling, undo/redo, command persistence, auth, and API validation. |
-| RLM: Defect-Guided Verifier Search for Controlled LLM Generation | Ongoing for ICML 2027 | Controlled-generation system combining RLM-style hidden-context access with Defect-Guided Verifier Search over visible candidates, with typed schemas for facts, forbidden claims, constraints, verifier gates, repair targets, candidate logs, branch budgets, and token accounting. Repository link withheld while the project is being prepared for an ICML 2027 submission. |
-| AI Archaeology of Chinese Songci | Ongoing for ISMIR 2027 | Songci NLP pipeline over classical poetry JSON corpora, extracting cipai, line length, rhyme position, ping/ze tone, and rhythmic features into PyTorch sequence-modeling inputs. Repository link withheld while the project is being prepared for an ISMIR 2027 submission. |
-| [SymStep: Symbolic Step Verification for Logical Reasoning](https://openreview.net/forum?id=THDsMgkDaj) | Coauthor, IJCAI/ECAI 2026 NILA Workshop | Step-level symbolic verification for LLM reasoning, using constraint propagation to check atomic deductions and strengthen constraint-dense logical reasoning. |
+| Phase3Lock: Three-Phase Locking for Efficient Diffusion Language Models | In progress (Sep 2026-present) with Prof. Zhiqiang Shen and team; targeting ICML 2027 | Separates token commitment, representation reuse, and selective computation, showing that prior acceleration methods conflate at least two of these decisions. Governing each independently matches full-compute answer quality while improving inference efficiency. |
+| LLM Reasoning Injection and Interruptible Reasoning: Selective Update Acceptance | In progress (Aug 2026-present) with Prof. Zangir Iklassov | A benchmark, to our knowledge the first, jointly testing whether reasoning models accept valid, authorized mid-inference updates while rejecting false claims and adversarial instructions, with a linear-probing study relating hidden-state representations of acceptance to model behavior. |
+| EoKono: Benchmarking LLM's Understanding of Esperanto Language and Culture | Coauthor, under review at ACL Rolling Review | An Esperanto benchmark of 23 language models and 2,667 questions reviewed by nine qualified speakers, revealing gaps between linguistic knowledge and understanding of Esperanto history and culture. |
+| [Metric Choice Determines Semantic Geometry in LLM Hidden States](https://github.com/ray-suton/LLM_Expansion) | First author, ICML 2026 Mechanistic Interpretability Workshop ([OpenReview](https://openreview.net/forum?id=PygdYDVgQc)) | Raw L2 tracks norm growth across layers, while centered cosine reveals semantic, topic, and category structure. |
+| [Deadline-Valid Replay: Anytime-Valid Testing for LLM Inference Policies](https://github.com/ray-suton/Deadline_Valid) | First author, ICML 2026 Hypothesis Testing Workshop ([OpenReview](https://openreview.net/forum?id=KcqIBf7un6)) | An anytime-valid replay protocol separating apparent leaderboard gaps from certified policy-level advantages. |
+| [SymStep: Symbolic Step Verification for Logical Reasoning](https://openreview.net/forum?id=THDsMgkDaj) | Coauthor, IJCAI-ECAI 2026 NILA Workshop | Step-wise symbolic verification with constraint-guided LLM reasoning; 97% accuracy on a ZebraLogicBench subset. |
+
+## Experience
+
+- **Machine Learning Engineer Intern, GenBio AI** (May 2026-Oct 2026): established expert-designed baselines for VCHarness, an agentic framework for biomedical model construction and prediction that combines an LLM coding agent, Monte Carlo Tree Search (MCTS), and biological foundation models. Optimized the MCTS-based search strategies, improving overall benchmark Macro-F1 by 7 percentage points.
+- **Undergraduate Researcher, MBZUAI** (Aug 2025-present): AI for computer graphics with Prof. Lingqi Yan.
 
 ## Technical Stack
 
-- Languages: Python, SQL, C++
-- ML/AI: Machine Learning, Deep Learning, LLMs, Agentic Systems, LLMOps, Model Evaluation, PyTorch, NumPy, Pandas
-- CS: Data Structures and Algorithms, Operating Systems, Software Engineering, JavaScript, React
-- Tools: Git, GitHub, VS Code, Jupyter, LLM APIs
+- Languages: Python, C++, SQL, TypeScript/JavaScript
+- ML/AI: Deep learning, CNN, NLP, LLM evaluation, linear probing, interpretability, agentic systems
+- Tools: PyTorch, Hugging Face Transformers, TensorFlow, Git/GitHub, Docker, Linux/HPC/GPU, Slurm
 
 ## Education, Honors, And Community
 
-- B.S. in AI Engineering, MBZUAI, expected Fall 2029
-- MBZUAI Dean's List
-- Sheikh Tahnoon bin Zayed Scholarship in AI Excellence and Pioneer Scholarship
-- President, MBZUAI Climbing Club
-- Founding student peer tutor for Calculus and Linear Algebra
+- B.S. in AI Engineering, MBZUAI, Aug 2025-expected Fall 2029 (GPA 3.82/4.0)
+- MBZUAI Dean's List (Top 10%); Sheikh Tahnoon bin Zayed Scholarship in AI Excellence; Pioneer Scholarship
+- Kaggle Gold Medal: Open Problems, Single-Cell Perturbations; Kaggle Silver Medal: HMS, Harmful Brain Activity Classification
+- Reviewer, NeurIPS 2026 Sim2Science Workshop
+- Founding Student Peer Tutor at MBZUAI: Calculus, Linear Algebra, DSA, and Deep Learning
+- Founder and President, MBZUAI Climbing Club (50+ students)
